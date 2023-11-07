@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SideMenuComponent } from './components/sideMenuComponent/side-menu/side-menu.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SideMenuButtonComponent } from './components/sideMenuComponent/side-menu-button/side-menu-button.component';
+import { SearchbarComponent } from './components/searchbar/searchbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideMenuComponent,
     NavbarComponent,
-    SideMenuButtonComponent
+    SideMenuButtonComponent,
+    SearchbarComponent
   ],
   imports: [
     BrowserModule,
