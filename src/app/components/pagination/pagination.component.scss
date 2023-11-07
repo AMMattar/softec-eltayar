@@ -1,0 +1,48 @@
+.typography-small {
+    color: #000;
+/* poppins 11 medium */
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.33px;
+}
+
+.page-selector-selected {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--second-color, #576176);
+    color: #fff;
+}
+
+.typography {
+    color: #333;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.page-selector {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #F1F1F1;
+    background: #FFF;
+    color: #333333;
+}

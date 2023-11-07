@@ -7,6 +7,7 @@ import { SideMenuComponent } from './components/sideMenuComponent/side-menu/side
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SideMenuButtonComponent } from './components/sideMenuComponent/side-menu-button/side-menu-button.component';
 import { SearchbarComponent } from './components/searchbar/searchbar.component';
+import { PaginationComponent } from './components/pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SearchbarComponent } from './components/searchbar/searchbar.component';
     SideMenuComponent,
     NavbarComponent,
     SideMenuButtonComponent,
-    SearchbarComponent
+    SearchbarComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
