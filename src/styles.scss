@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+$primary: rgb(87,97,118);
+$secondary: rgb(185, 109, 15);
+
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+    font-family: Poppins, sans-serif;
+  }

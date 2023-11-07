@@ -1,0 +1,9 @@
+@import '../../../../styles.scss';
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 66px;
+    height: 100%;
+    background-color: $primary;    
+}
