@@ -1,0 +1,106 @@
+.car-cover {
+    width: 91px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 5px solid var(--Dark-bg---components, #EFF0F4);
+    background: var(--gray-bg, #F6F7FB);
+}
+
+.blue-square {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    background: var(--blue, #5A83D9);
+}
+
+.sidemenu-up {
+    position: fixed;
+    right: 0;
+    top: 170px;
+    display: flex;
+    width: 250px;
+    padding: 10px 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    background: var(--white, #FFF);
+}
+
+.sidemenu-up-btn {
+    display: flex;
+    width: 239px;
+    height: 48px;
+    padding: 12px 137px 12px 13px;
+    align-items: center;
+    gap: 9px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.sidemenu-down {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.sidemenu-down-btn {
+    width: 250px;
+    height: 38px;
+    border-radius: 5px;
+    background: var(--white, #FFF);
+    color: #DF9C49;
+}
+
+.detils-body {
+    position: fixed;
+    left: 66px;
+    top: 170px;
+    display: flex;
+    width: 1100px;
+    padding: 10px 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    background: var(--white, #FFF);
+}
+
+.sub-typography {
+    color: var(--sub-title-gray, #6F7885);
+
+    /* 12px medium */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.main-typography {
+    color: var(--blue-dark-text, #172051);
+
+    /* poppins 12 semibold */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.photo-cover {
+    position: relative;
+    height: 361.54px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 10px solid var(--gray-bg, #F6F7FB);
+    background: #FFF;  
+}
+
+.orange-square {
+    width: 4px;
+    height: 22px;
+    border-radius: 3px;
+    background: var(--main-color, #DF9C49);
+}

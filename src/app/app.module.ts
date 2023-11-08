@@ -8,6 +8,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SideMenuButtonComponent } from './components/sideMenuComponent/side-menu-button/side-menu-button.component';
 import { SearchbarComponent } from './components/searchbar/searchbar.component';
 import { PaginationComponent } from './components/pagination/pagination.component';
+import { VehiclesListComponent } from './components/vehicles-list/vehicles-list.component';
+import { VehiclesTableComponent } from './components/vehicles-table/vehicles-table.component';
+import { VehiclesDetailsComponent } from './components/vehicles-details/vehicles-details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { PaginationComponent } from './components/pagination/pagination.componen
     NavbarComponent,
     SideMenuButtonComponent,
     SearchbarComponent,
-    PaginationComponent
+    PaginationComponent,
+    VehiclesListComponent,
+    VehiclesTableComponent,
+    VehiclesDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,334 @@
+<div class="m-4" style="position: absolute; left: 67px; top: 70px; width: 100%; height: 587px; max-width: calc(100vw - 110px);">
+    <div class="d-flex m-1 shadow" style="height: 97px; border-radius: 5px;">
+        <div class="car-cover d-flex justify-content-center align-items-center m-2 mx-3" style="border-radius: 10px; border: 5px solid var(--Dark-bg---components, #EFF0F4); background: var(--gray-bg, #F6F7FB);">
+            <img src="../../../assets/images/carbig.svg" alt="">
+        </div>
+        <div>
+            <h6 class="m-2 my-3">#4567</h6>
+            <div class="d-flex">
+                <img class="m-2" src="../../../assets/images/ic_green_confirmed.svg" alt="">
+                <div class="m-2">|</div>
+                <p class="m-2">980-476</p>
+                <div class="m-2">|</div>
+                <p class="m-2">Headquartes  >  Cloud technical office</p>
+                <div class="m-2">|</div>
+                <div class="m-3 blue-square"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="selected === 0" class="detils-body my-5 mx-4">
+    <div style="width: 100%; display: flex; justify-content: flex-end;">
+        <div class="d-flex justify-content-center align-items-center m-2" style="width: 30px; height: 27px; background-color: #EFF0F4; border-radius: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+            <g clip-path="url(#clip0_2689_18022)">
+              <path d="M6.68417 2.9248L1.00235 11.0539C0.770749 11.385 0.544456 11.9844 0.499753 12.3864L0.219917 14.8734C0.174962 15.2752 0.433835 15.4558 0.7955 15.2757L3.0352 14.1584C3.39711 13.9781 3.88203 13.5593 4.11362 13.2285L9.7952 5.09934L6.68417 2.9248Z" fill="#576176"/>
+              <path d="M10.4257 4.1963L11.1624 3.14262C11.3938 2.81126 11.3125 2.35085 10.9814 2.11975L9.07454 0.786747C8.74293 0.554898 8.28277 0.636727 8.05142 0.968085L7.31445 2.02176L10.4257 4.1963Z" fill="#576176"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_2689_18022">
+                <rect width="11.3793" height="15" fill="white" transform="translate(0.166016 0.5)"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+    </div>
+    <div class="d-flex m-3" style="width: 100%;">
+        <div style="width: 33%;">
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Plate Number</p>
+                <p class="main-typography">980-476</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Branch</p>
+                <p class="main-typography">Headquarters</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Manufacturer</p>
+                <p class="main-typography">NA</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Speed Limit</p>
+                <p class="main-typography">140km/h</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Insurance Number</p>
+                <p class="main-typography">3543</p>
+            </div>
+        </div>
+        <div style="width: 33%;">
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Code</p>
+                <p class="main-typography">#456</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Sub branch</p>
+                <p class="main-typography">Cloud technical office</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Brand</p>
+                <p class="main-typography">BMW</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">License Number</p>
+                <p class="main-typography">464635</p>
+            </div>
+        </div>
+        <div style="width: 33%;">
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Vehicle type</p>
+                <p class="main-typography">Sedan</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Current Mileage</p>
+                <p class="main-typography">0,001</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Production year</p>
+                <p class="main-typography">2021</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">License Expiry date</p>
+                <p class="main-typography">2021</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="selected === 1" class="detils-body my-5 mx-4">
+    <table class="table table-striped">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">PM Name</th>
+            <th scope="col">Creation Date</th>
+            <th scope="col">Last Modification Date</th>
+            <th scope="col">Vehicle</th>
+            <th scope="col">Branch</th>
+            <th scope="col">sub branch</th>
+            <th scope="col">Requested by</th>
+            <th scope="col">Driver name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>PM098</td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td>567-657</td>
+            <td>Main branch</td>
+            <td>Sub branch</td>
+            <td>Requested by name</td>
+            <td><img src="../../../assets/images/profile.svg" alt="">Ahmed Mohamed</td>
+          </tr>
+          <tr>
+            <td>PM098</td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td>567-657</td>
+            <td>Main branch</td>
+            <td>Sub branch</td>
+            <td>Requested by name</td>
+            <td><img src="../../../assets/images/profile.svg" alt="">Ahmed Mohamed</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+
+  <div *ngIf="selected === 2" class="detils-body my-5 mx-4">
+    <table class="table table-striped">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">WO ID</th>
+            <th scope="col">WO Type</th>
+            <th scope="col">Creation Date</th>
+            <th scope="col">Planned start at</th>
+            <th scope="col">Actual start at</th>
+            <th scope="col">Actual finish at</th>
+            <th scope="col">Closing Date</th>
+            <th scope="col">Branch</th>
+            <th scope="col">Sub Branch</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>000001</td>
+            <td>Delivery</td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>Headquarters</p><p>> Cairo</p></td>
+            <td>Sub branch</td>
+          </tr>
+          <tr>
+            <td>000001</td>
+            <td>Delivery</td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>Headquarters</p><p>> Cairo</p></td>
+            <td>Sub branch</td>
+          </tr>
+          <tr>
+            <td>000001</td>
+            <td>Delivery</td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>26,1,2023</p><p>20:34</p></td>
+            <td><p>Headquarters</p><p>> Cairo</p></td>
+            <td>Sub branch</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+
+  <div *ngIf="selected === 3" class="detils-body my-5 mx-4">
+    <div style="width: 100%; display: flex; justify-content: flex-end;">
+        <div class="d-flex justify-content-center align-items-center m-2" style="width: 30px; height: 27px; background-color: #EFF0F4; border-radius: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+            <g clip-path="url(#clip0_2689_18022)">
+              <path d="M6.68417 2.9248L1.00235 11.0539C0.770749 11.385 0.544456 11.9844 0.499753 12.3864L0.219917 14.8734C0.174962 15.2752 0.433835 15.4558 0.7955 15.2757L3.0352 14.1584C3.39711 13.9781 3.88203 13.5593 4.11362 13.2285L9.7952 5.09934L6.68417 2.9248Z" fill="#576176"/>
+              <path d="M10.4257 4.1963L11.1624 3.14262C11.3938 2.81126 11.3125 2.35085 10.9814 2.11975L9.07454 0.786747C8.74293 0.554898 8.28277 0.636727 8.05142 0.968085L7.31445 2.02176L10.4257 4.1963Z" fill="#576176"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_2689_18022">
+                <rect width="11.3793" height="15" fill="white" transform="translate(0.166016 0.5)"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+    </div>
+    <div class="d-flex m-3" style="width: 100%;">
+        <div style="width: 33%;">
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Sim card Number</p>
+                <p class="main-typography">980-476</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Device type</p>
+                <p class="main-typography">device type</p>
+            </div>
+        </div>
+        <div style="width: 33%;">
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Provider</p>
+                <p class="main-typography">Etisalat</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Version</p>
+                <p class="main-typography">0,001</p>
+            </div>
+        </div>
+        <div style="width: 33%;">
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Device Code</p>
+                <p class="main-typography">2765-3656-4356-2543</p>
+            </div>
+            <div class="border-bottom m-4">
+                <p class="sub-typography">Vendor</p>
+                <p class="main-typography">Vendor name</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div *ngIf="selected === 4" class="detils-body my-5 mx-4">
+    <div style="width: 100%; display: flex; justify-content: flex-end;">
+        <div class="d-flex justify-content-center align-items-center m-2" style="width: 30px; height: 27px; background-color: #EFF0F4; border-radius: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+            <g clip-path="url(#clip0_2689_18022)">
+              <path d="M6.68417 2.9248L1.00235 11.0539C0.770749 11.385 0.544456 11.9844 0.499753 12.3864L0.219917 14.8734C0.174962 15.2752 0.433835 15.4558 0.7955 15.2757L3.0352 14.1584C3.39711 13.9781 3.88203 13.5593 4.11362 13.2285L9.7952 5.09934L6.68417 2.9248Z" fill="#576176"/>
+              <path d="M10.4257 4.1963L11.1624 3.14262C11.3938 2.81126 11.3125 2.35085 10.9814 2.11975L9.07454 0.786747C8.74293 0.554898 8.28277 0.636727 8.05142 0.968085L7.31445 2.02176L10.4257 4.1963Z" fill="#576176"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_2689_18022">
+                <rect width="11.3793" height="15" fill="white" transform="translate(0.166016 0.5)"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+    </div>
+    <div class="d-flex m-3" style="width: 100%;">
+        <div class="photo-cover">
+            <img class="photo-cover" src="../../../assets/images/9c25637b5c5830b0d6e862253cc4ec40.png" alt="" style="width: 556px;">
+        </div>
+        <div class="photo-cover">
+            <img style="width: 426px; height: 271px;" src="../../../assets/images/Mask Group 3 2.png" alt="">
+            <img src="../../../assets/images/e4d7a127bd5695ce64efa9a00a59bf4f.png" alt="" style="width: 326px; height: 171px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -70%);">
+        </div>
+    </div>
+  </div>
+
+  <div *ngIf="selected === 5" class="detils-body my-5 mx-4">
+    <div style="width: 100%; display: flex; justify-content: flex-end;">
+        <div class="d-flex justify-content-center align-items-center m-2" style="width: 30px; height: 27px; background-color: #EFF0F4; border-radius: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+            <g clip-path="url(#clip0_2689_18022)">
+              <path d="M6.68417 2.9248L1.00235 11.0539C0.770749 11.385 0.544456 11.9844 0.499753 12.3864L0.219917 14.8734C0.174962 15.2752 0.433835 15.4558 0.7955 15.2757L3.0352 14.1584C3.39711 13.9781 3.88203 13.5593 4.11362 13.2285L9.7952 5.09934L6.68417 2.9248Z" fill="#576176"/>
+              <path d="M10.4257 4.1963L11.1624 3.14262C11.3938 2.81126 11.3125 2.35085 10.9814 2.11975L9.07454 0.786747C8.74293 0.554898 8.28277 0.636727 8.05142 0.968085L7.31445 2.02176L10.4257 4.1963Z" fill="#576176"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_2689_18022">
+                <rect width="11.3793" height="15" fill="white" transform="translate(0.166016 0.5)"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+    </div>
+    <div style="width: 100%;">
+        <div class="d-flex border-bottom mx-3 align-items-center">
+            <div class="orange-square mx-3"></div>
+            <h5 class="m-2">Skeleton</h5>
+        </div>
+        <div class="d-flex my-5 mx-3">
+            <div>
+                <div class="d-flex">
+                    <h5 class="mx-4">Front:</h5>
+                    <p class="mx-4">Single</p>
+                    <p class="mx-4">|</p>
+                    <p class="mx-4">Automatic</p>
+                    <p class="mx-4">|</p>
+                    <p class="mx-4">size 5</p>
+                </div>
+                <div class="d-flex">
+                    <h5 class="mx-4">Back:&nbsp;</h5>
+                    <p class="mx-4">Single</p>
+                    <p class="mx-4">|</p>
+                    <p class="mx-4">Automatic</p>
+                    <p class="mx-4">|</p>
+                    <p class="mx-4">size 5</p>
+                </div>
+            </div>
+            <div class="mx-5"><img src="../../../assets/images/noun-chassis-1027028 1.svg" alt=""></div>
+        </div>
+        <div class="d-flex border-bottom m-3 align-items-center">
+            <div class="orange-square mx-3"></div>
+            <h5 class="m-2">Violations</h5>
+        </div>
+    </div>
+  </div>
+
+<div class="sidemenu-up my-5 mx-4">
+<div (click)="selected = 0" class="sidemenu-up-btn"><img src="../../../assets/images/infoGrey.svg" alt="">Main info</div>
+<div (click)="selected = 1" class="sidemenu-up-btn"><img src="../../../assets/images/maintenanceGrey.svg" alt="">Preventive Maintanace</div>
+<div (click)="selected = 2" class="sidemenu-up-btn"><img src="../../../assets/images/operationGrey.svg" alt="">Operations</div>
+<div (click)="selected = 3" class="sidemenu-up-btn"><img src="../../../assets/images/wifiGrey.svg" alt="">Device Info</div>
+<div (click)="selected = 4" class="sidemenu-up-btn"><img src="../../../assets/images/photoGrey.svg" alt="">Photos</div>
+<div (click)="selected = 5" class="sidemenu-up-btn"><img src="../../../assets/images/moreGrey.svg" alt="">More</div>
+</div>
+
+<div class="sidemenu-down my-5 mx-4">
+    <p class="mx-2">Actions</p>
+    <div class="sidemenu-down-btn d-flex justify-content-center align-items-center my-2 mx-1">Create RFR</div>
+    <div class="sidemenu-down-btn d-flex justify-content-center align-items-center my-2 mx-1">Allocate staff</div>
+    <div class="sidemenu-down-btn d-flex justify-content-center align-items-center my-2 mx-1">Create operation WO</div>
+</div>
